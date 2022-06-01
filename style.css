@@ -155,27 +155,108 @@ margin-bottom: 26px;}
 
 /* abaixo seçao de postagens */
 
-.conteudo{margin: 0; 
-    display: flex;
-    align-items: center;
-    justify-content: center;}
-
-.conteudo h2{display:inline-block;
-    width: 100%;
-    font-family: 'Ubuntu';
+.titulo-conteudo h2{font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
     font-size: 37px;
-    line-height: 43px;
+    line-height: 50px;
+    color: #009688;
+    justify-content: left;
+}
+
+.conteudo{ margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    margin-bottom: 150px;
+    
+}
+
+ .bloco-2{ display: flex;
+    flex-direction: column;
+align-items: center;
+justify-items: center;
+padding: 30px;
+width:100%;} 
+
+.bloco-2 p{font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    width: 293px;
+    height: 60px;
+margin-bottom: 26px;}
+
+.bloco-2 span{font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
     color: #009688;}
 
-.bloco-2{
-    display: flex;
-    flex-direction: column;
+    .conteudo a {font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 31px;
+        text-align: center;
+        
+        color: #FF4081;
+        border: 2px solid #FF4081;
+        border-radius: 62px;
+        width: 216px;
+        margin-top: 30px;
+        display: inline-block;
     align-items: center;
     justify-items: center;
-    width:1600px;}
+  
+    }
 
+ footer {
+            background-color: #2e948a;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 1rem 5rem;
+          }
+          
+          .menu-footer ul {
+            display: block;
+          }
+          
+          .menu-footer li {
+            margin: 1rem;
+          }
+          
+          .menu-footer a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 1rem;
+          }
+          
+          .links-footer {
+            display: flex;
+            flex-direction: column;
+          }
+          
+          .links-footer a {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            color: #FFFFFF;
+            
+            text-decoration: none;
+            padding: 0.2rem 2rem;
+            border: 2px solid #FFFFFF;
+            border-radius: 62px;
+          }
   
 
  
