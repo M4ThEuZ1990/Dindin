@@ -1,0 +1,145 @@
+*{padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    }
+    
+    /* cabecalho do site  */
+    header{display: flex;
+    justify-content: space-between;
+    background-color:#2E948A;
+    align-items: center;
+    padding: 1rem 3rem;}
+    
+    ul{display: flex;    
+    }
+    
+    nav li a{
+        padding: 0.5rem;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    .contato{
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 2rem;
+      }
+
+    .contato h1{font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        color: #FF4081;}
+
+    .imagem-forms{ 
+        display: flex;
+        flex-direction: column;
+        width: 60%;}
+
+    .imagem-forms img{
+        width: 444px;
+        height: 444px;
+        left: 833px;
+        top: 199px;
+    margin-left: 200px;}
+
+    form{
+        width: 40%;
+        display: flex;
+        flex-direction: column;}
+
+        form{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+        
+        form > input{
+            margin-bottom: 50px;
+            width: 493px;
+            height: 32px;
+            padding: 10px;
+            border-radius: 7px;
+            border-color: #686868;
+        }
+        form > input::placeholder{
+            font-size: 20px;
+            position: absolute;
+            top:15px;
+            left: 10px;
+        }
+        .mensagem{
+            margin-bottom: 50px;
+            width: 493px;
+            height: 193px;
+        }
+        button{font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 31px;
+            text-align: center;
+            
+            color: white;
+            background-color:#FF4081 ;
+            border: 2px solid #FF4081;
+            border-radius: 50px;
+            width: 216px;
+            margin-top: 30px;
+        }
+    
+   
+
+    footer {
+        background-color: #2e948a;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1rem 5rem;
+      }
+      
+      .menu-footer ul {
+        display: block;
+      }
+      
+      .menu-footer li {
+        margin: 1rem;
+      }
+      
+      .menu-footer a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1rem;
+      }
+      
+      .links-footer {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .links-footer a {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        
+        text-decoration: none;
+        padding: 0.2rem 2rem;
+        border: 2px solid #FFFFFF;
+        border-radius: 62px;
+      }
