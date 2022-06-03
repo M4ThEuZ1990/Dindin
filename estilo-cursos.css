@@ -19,43 +19,47 @@
     line-height: 23px;
     color: #555555;}
 
-.container-cursos{display: flex;
-                  flex-direction: column;
-                  max-width: 1000px;
-	margin: 0 auto;
-	display: flex;
-                }
-/* .curso{display: flex;
-    flex-direction:column;;
-    justify-content: space-around;
+.container-cursos{
+    width: 80%;
+    display: flex;
     flex-wrap: wrap;
-   } */
+    justify-content: space-around;
+    padding: 2rem 0;
+    margin: 10px;
+  ; }
 
-    .curso img{ width: 30%;
-        display: inline-block;
-        justify-content: center;
-        align-items: center;}
 
-    .curso h2 {display: inline-block;
+    .texto-cursos h2 {display: inline-block;
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
         font-size: 35px;
         line-height: 40px;
-        
         color: #FF4081;
-    width: 30%;}
+    width: 512px;
+margin-bottom: 37px;} 
 
-    /* .curso p {display: inline-block;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 21px;
-        color: #000000;
-    width: 100%;} */
+.texto-cursos p{font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+margin-bottom: 53px;}
 
-    .curso a{background: #2E948A;
+.curso-imagem{display:flex;
+    width: 40%;
+margin: 10px;
+margin-bottom: 35px;}
+
+.texto-cursos{display:flex;
+    flex-direction: column;
+    width: 40%;
+    
+    }
+
+
+    .texto-cursos a{background: #2E948A;
         border-radius: 62px;
         font-family: 'Ubuntu';
         font-style: normal;
@@ -65,4 +69,7 @@
         text-align: center;
         padding: 10px;
         color: #FFFFFF;
-    width: max-content;}
+        max-width: 233px;
+        max-height: 51px;
+    }
+
