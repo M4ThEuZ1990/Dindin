@@ -96,6 +96,21 @@ nav li a {
   background-color: #f6f6f6;
 }
 
+.title-cursos{display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.title-cursos h2{font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 57px;
+  display: flex;
+  align-items: center;
+  
+  color: #FF4081;}
+
 .cursos h3 {
   font-family: 'Ubuntu';
   font-style: normal;
